@@ -12,7 +12,7 @@ describe('Index page', function () {
     });
 
     it('should return "Welcome to the payment system"', function (done) {
-        request(url, function (error, response, body) {
+        request(urlr, function (error, response, body) {
             expect(body).to.equal('Welcome to the payment system');
             done();
         });
